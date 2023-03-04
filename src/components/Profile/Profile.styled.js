@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
 margin-top: 10px;
 padding-top: 40px;
 background-color: aliceblue;
-width: 350px;
+width: 360px;
 height: 400px;
 margin-right: auto;
 margin-left: auto;
@@ -54,7 +54,9 @@ border-top: 1px solid #ECECEC;
 `
 export const Item = styled.li`
     display: grid;
-    padding: 31px;
+    padding-top: 30px;
+    padding-bottom: 34px;
+    min-width: 120px;
     font-size: 16px;
     line-height: 1.2;
     text-align: center;
