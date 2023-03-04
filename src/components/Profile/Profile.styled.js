@@ -2,8 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
 margin-top: 10px;
+margin-bottom: 30px;
 padding-top: 40px;
-background-color: aliceblue;
+background-color: ghostwhite;
 width: 360px;
 height: 400px;
 margin-right: auto;
@@ -49,7 +50,7 @@ export const Location = styled.p`
 
 export const List = styled.ul`
 display: flex;
-/* justify-content: space-evenly; */
+background-color: aliceblue;
 border-top: 1px solid #ECECEC;
 `
 export const Item = styled.li`
