@@ -24,28 +24,28 @@ background-color: white;
 export const Name = styled.p`
 margin-top: 40px;
 margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: .03em;
-    color: black;
+font-weight: 500;
+font-size: 24px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: .03em;
+color: black;
 `
 export const Tag = styled.p`
 margin-bottom: 10px;
 font-size: 18px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: .03em;
-    color: #757575;
+line-height: 1.2;
+text-align: center;
+letter-spacing: .03em;
+color: #757575;
 `
 export const Location = styled.p`
-    margin-bottom: 40px;
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: .03em;
-    color: #757575;
+margin-bottom: 40px;
+font-size: 18px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: .03em;
+color: #757575;
 `
 
 export const List = styled.ul`
@@ -54,15 +54,16 @@ background-color: aliceblue;
 border-top: 1px solid #ECECEC;
 `
 export const Item = styled.li`
-    display: grid;
-    padding-top: 30px;
-    padding-bottom: 34px;
-    min-width: 120px;
-    font-size: 16px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: .03em;
-    color: #757575;
+display: flex;
+flex-direction: column;
+padding-top: 30px;
+padding-bottom: 34px;
+min-width: 120px;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: .03em;
+color: #757575;
 
    &:not(:last-child) {
     border-right: 1px solid #ECECEC ;
@@ -71,9 +72,9 @@ export const Item = styled.li`
 
 export const Quantity = styled.span`
 font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
-    letter-spacing: .03em;
-    color: black;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: .03em;
+color: black;
 `
